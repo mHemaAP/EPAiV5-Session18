@@ -132,6 +132,17 @@ print(deserialized_stock, deserialized_trade)
 
 ```
 
+## Test Results
+
+### Local PC Execution
+
+![localPC_test_results](localPC_test_results.JPG)
+
+
+### Workflow Actions
+
+![gitActions_tests_passed](gitActions_tests_passed.JPG)
+
 ## Conclusion
 This implementation demonstrates two methods for serializing and deserializing custom Python objects. By combining custom `JSONEncoder` and `JSONDecoder` classes and `Marshmallow` schemas, we create a robust solution for handling complex data types, making it easier to store and retrieve data accurately. This dual approach provides flexibility and efficiency, ensuring compatibility with JSON and schema-based serialization requirements.
 
