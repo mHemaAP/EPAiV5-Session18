@@ -2,6 +2,8 @@
 
 This README provides an overview of the custom serialization and deserialization functionality for the `Stock` and `Trade` classes in Python. We have implemented two techniques for serializing and deserializing these classes: one using a custom `JSONEncoder` and `JSONDecoder`, and another using the `Marshmallow` library, a popular library for object serialization/deserialization and schema validation.
 
+![Test Status](https://github.com/mHemaAP/EPAiV5-Session18/actions/workflows/python-app.yml/badge.svg)
+
 ## 1. Overview of Classes (Stock and Trade)
 The program defines two classes representing financial data:
 
